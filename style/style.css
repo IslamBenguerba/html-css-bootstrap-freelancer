@@ -1,0 +1,83 @@
+:root{
+    --background-color-nav:  rgb(44, 62, 80);
+    --background-color-pr : rgb(26, 188, 156);
+}
+
+.bg-top{
+    background-color: var(--background-color-nav);
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.immagine-hero{
+    height: 10rem;
+}
+.bg-hero{
+    background-color: var(--background-color-pr);
+}
+.list{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.list li a{
+    font-size: .8rem;
+    white-space: nowrap;
+}
+.line{
+    background-color: white;
+    flex-basis: calc((100% / 3));
+    height: 4px;
+}
+.icon{
+    color: white;
+    width: min-content;
+}
+.icon-black{
+    color: black;
+}
+.black{
+    background-color: black;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    object-fit: cover;
+}
+.xs{
+    max-width: 400px;
+}
+.card-icone{
+    display: flex;
+}
+.btn-border{
+    border: 1px solid white;
+    color: white;
+}
+textarea{
+    border: 0;
+    width: 100%;
+    height: 50px;
+}
+.item-personal{
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-icon-web{
+    flex-basis:  calc((100% / 4) - 1rem);
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.gap-1{
+    gap: 1rem;
+}
+.withe{
+    color: white;
+}
