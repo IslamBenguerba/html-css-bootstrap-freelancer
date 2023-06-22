@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <section>
+    <section class="bg-top">
         <!-- container navbar -->
-        <div class="container bg-top">
-            <nav class="navbar navbar-dark">
+        <div class="container  bg-top">
+            <!-- <nav class="navbar navbar-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">STARTED BOOTSRAP</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,16 +23,56 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                </div> -->
+            
+            <nav class="navbar bg-top fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand withe" href="#">STARTED BOOTSRAP</a>
+                    <div class="row nowrap  withe list-top-nav align-items-center">
+                        <a class="link-top">PORTFOLIO</a>
+                        <a class="link-top" >PORTFOLIO</a>
+                        <a class="link-top" >PORTFOLIO</a>
+                    </div>
+                    <button class="navbar-toggler withe btn-top-my" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon withe"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end withe" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header bg-top withe">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">STARTED BOOTSRAP</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body bg-top ">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                                <li class="nav-item withe-link">
+                                    <a class="nav-link active withe" aria-current="page" href="#">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link withe" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link withe" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        CONTACT
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+            </nav>
+        </div>
     </section>
-    <section>
+    <section class="mt-5 pt-2 pb-2 bg-hero">
         <!-- sezione container hero -->
-        <div class="container bg-hero">
+        <div class="container  bg-hero">
             <div class="row  justify-content-center">
                 <div class="col col-sm-6">
                     <div class="row  justify-content-center ">
-                        <h2 class="text-center">START BOOTSTRAP</h2>
                         <img class="immagine-hero" src="img/avatar.svg" alt="">
+                        <h2 class="text-center withe mt-3">START BOOTSTRAP</h2>
                     </div>
                     <div class="row justify-content-center nowrap align-items-center">
                         <div class="line"></div>
@@ -40,9 +80,9 @@
                         <div class="line"></div>
                     </div>
                     <ul class="list">
-                        <li><a class="text-decoration-none" href="">GRAPHIC ARTIST</a></li>
-                        <li><a class="text-decoration-none" href="">-WEB DESIGNER</a></li>
-                        <li><a class="text-decoration-none" href="">-ILLUSTRATOR</a></li>
+                        <li><a class="text-decoration-none withe" href="">GRAPHIC ARTIST</a></li>
+                        <li><a class="text-decoration-none withe" href="">-WEB DESIGNER</a></li>
+                        <li><a class="text-decoration-none withe" href="">-ILLUSTRATOR</a></li>
                     </ul>
                 </div>
 
@@ -50,8 +90,8 @@
         </div>
     </section>
     <!-- sezione portfolio -->
-    <section>
-        <div class="container text-center">
+    <section class="pt-5 pb-5 pt-sm-4 pb-sm-4">
+        <div class="container container-md text-center">
             <h2>PORTFOLIO</h2>
             <div class="row">
                 <div class="col">
@@ -62,33 +102,33 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-2">
-                <div class="col-12">
+            <div class="row g-2 g-xl-3">
+                <div class="col col-sm-6 col-xl-4">
                     <div class="card">
                         <img src="img/cabin.png">
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col col-sm-6 col-xl-4">
                     <div class="card">
                         <img src="img/cabin.png">
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col col-sm-6 col-xl-4">
                     <div class="card">
                         <img src="img/cabin.png">
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col col-sm-6 col-xl-4">
                     <div class="card">
                         <img src="img/cabin.png">
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col col-sm-6 col-xl-4">
                     <div class="card">
                         <img src="img/cabin.png">
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col col-sm-6 col-xl-4">
                     <div class="card">
                         <img src="img/cabin.png">
                     </div>
@@ -96,9 +136,9 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container text-center bg-hero pb-4">
-            <h3>ABOUT</h3>
+    <section class="bg-hero pt-2 pb-2 pt-sm-4 pb-sm-4">
+        <div class="container text-center bg-hero">
+            <h3 class="withe">ABOUT</h3>
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="row justify-content-center nowrap align-items-center ">
@@ -111,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8 col-sm-6">
+                <div class="col-8 col-sm-4 withe">
                     <p class="text-start">
                         Freelancer is a free bootstrap theme created by Start Bootstrap.
                         The Download includes the complete source files includin HTML,CSS, and JavaScript as
@@ -119,7 +159,7 @@
                         for easy customization.
                     </p>
                 </div>
-                <div class="col-8 col-sm-6">
+                <div class="col-8 col-sm-4 withe">
                     <p class="text-start">
                         Whether youìre a student looking
                         to showcase your work, a
@@ -137,7 +177,7 @@
         </div>
     </section>
     <!-- contattami -->
-    <section>
+    <section class="pt-sm-4 pb-sm-4">
         <div class="container text-center ">
             <h3>CONTACT ME</h3>
             <div class="row justify-content-center">
@@ -168,16 +208,16 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="container bg-top pt-5">
-            <div class="row justify-content-center">
-                <div class="col-8 text-center">
+    <section class="bg-top pt-sm-4 pb-sm-4">
+        <div class="container">
+            <div class="row justify-content-center ailng-content-center">
+                <div class="col-8 col-sm-4 text-center">
                     <h5 class="withe">LOCATION</h5>
-                    <h5 class="withe">2215 Jhon Daniel Drive Clark, MO 54243</h5>
+                    <h5 class="withe pb-2 pb-xl-0">2215 Jhon Daniel Drive Clark, MO 54243</h5>
                 </div>
-                <div class="col-8 text-center">
+                <div class="col-8  col-sm-4 text-center">
                     <h5 class="withe">AROUND THE WEB</h5>
-                    <div class="row gap-1 justify-content-center">
+                    <div class="row gap-2 justify-content-center pb-4 pb-xl-0">
                         <div class="card-icon-web">
                             <i class="bi bi-facebook"></i>
                         </div>
@@ -191,6 +231,13 @@
                             <i class="bi bi-linkedin"></i>
                         </div>
                     </div>
+                </div>
+                <div class="col-8 col-sm-4 text-center">
+                    <h5 class="withe">ABOUT Freelancer</h5>
+                    <P class="withe">Freelancer is a free to use, open
+                        source Bootstrap theme created
+                        by <span>Start Bootstrap</span>.
+                    </P>
                 </div>
             </div>
         </div>
